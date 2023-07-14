@@ -103,7 +103,7 @@ $dataPesanAll = json_decode($jsonData, true);
                 <div class="col-lg-6">
                   <ul>
                     <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>26 September 2001</span></li>
-                    <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.example.com</span></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span><a target="_blank" href="https://rey-andre.github.io/"> rey-andre.github.io</a></span></li>
                     <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Bogor, Indonesia</span></li>
                   </ul>
                 </div>
@@ -203,7 +203,7 @@ $dataPesanAll = json_decode($jsonData, true);
           </div>
 
           <div class="row portfolio-container align-items-start" data-aos="fade-up" data-aos-delay="100">
-            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="col-lg-6 col-md-6 portfolio-item filter-web">
               <div class="portfolio-wrap">
                 <img src="assets/img/portfolio/scmic.jpeg" class="img-fluid" alt="" />
                 <div class="portfolio-links">
@@ -213,7 +213,7 @@ $dataPesanAll = json_decode($jsonData, true);
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="col-lg-6 col-md-6 portfolio-item filter-web">
               <div class="portfolio-wrap">
                 <img src="assets/img/portfolio/badut.jpeg" class="img-fluid" alt="" />
                 <div class="portfolio-links">
@@ -229,7 +229,39 @@ $dataPesanAll = json_decode($jsonData, true);
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="col-lg-6 col-md-6 portfolio-item filter-web">
+              <div class="portfolio-wrap">
+                <img src="assets/img/portfolio/profilecard.jpeg" class="img-fluid" alt="" />
+                <div class="portfolio-links">
+                  <a
+                    href="assets/img/portfolio/profilecard.jpeg"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    data-glightbox="title: Profile Card; description: this is my small independent project, the profile card website is made to provide brief information and present personal identity to people through the website."
+                    ><i class="bx bx-plus"></i
+                  ></a>
+                  <a href="https://rey-andre.github.io/" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 portfolio-item filter-web">
+              <div class="portfolio-wrap">
+                <img src="assets/img/portfolio/lapakjajan.jpeg" class="img-fluid" alt="" />
+                <div class="portfolio-links">
+                  <a
+                    href="assets/img/portfolio/lapakjajan.jpeg"
+                    data-gallery="portfolioGallery"
+                    class="portfolio-lightbox"
+                    data-glightbox="title: Profile Card; description: this is my small independent project, the profile card website is made to provide brief information and present personal identity to people through the website."
+                    ><i class="bx bx-plus"></i
+                  ></a>
+                  <a href="https://rey-andre.github.io/lapakjajan/" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 portfolio-item filter-card">
               <div class="portfolio-wrap">
                 <img src="assets/img/portfolio/jsCourse.png" class="img-fluid" alt="" />
                 <div class="portfolio-links">
@@ -239,35 +271,56 @@ $dataPesanAll = json_decode($jsonData, true);
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="col-lg-6 col-md-6 portfolio-item filter-card">
               <div class="portfolio-wrap">
                 <img src="assets/img/portfolio/course-python.png" class="img-fluid" alt="" />
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/course-python.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/portfolio/course-python.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i class="bx bx-plus"></i></a>
                   <a href="https://drive.google.com/file/d/10-qvNe0bpAi298doPMPR5sfYVbQGSqJN/view?usp=sharing" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="col-lg-6 col-md-6 portfolio-item filter-card">
               <div class="portfolio-wrap">
                 <img src="assets/img/portfolio/awsCourse.png" class="img-fluid" alt="" />
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/awsCourse.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/portfolio/awsCourse.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i class="bx bx-plus"></i></a>
                   <a href="https://drive.google.com/file/d/1ySTirBkyLuVBj0VaMtgNqbzrEktgbd8r/view?usp=sharing" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="col-lg-6 col-md-6 portfolio-item filter-card">
               <div class="portfolio-wrap">
                 <img src="assets/img/portfolio/sertifJWD.png" class="img-fluid" alt="" />
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/sertifJWD.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/portfolio/sertifJWD.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i class="bx bx-plus"></i></a>
                   <a href="https://drive.google.com/file/d/1IZIDyj4W7DjyhuxaCmlVPnCxdRWJzL6B/view?usp=sharing" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
                 </div>
               </div>
             </div>
+
+            <div class="col-lg-6 col-md-6 portfolio-item filter-card">
+              <div class="portfolio-wrap">
+                <img src="assets/img/portfolio/azurefundamental.png" class="img-fluid" alt="" />
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/azurefundamental.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i class="bx bx-plus"></i></a>
+                  <a href="https://drive.google.com/file/d/1bDEThC3C65H4_PS8Y6U7-Pq19cada5Rk/view?usp=sharing" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 portfolio-item filter-card">
+              <div class="portfolio-wrap">
+                <img src="assets/img/portfolio/bootcampazure.png" class="img-fluid" alt="" />
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/bootcampazure.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i class="bx bx-plus"></i></a>
+                  <a href="https://drive.google.com/file/d/1yawBDurMqNJjcJExWJ3A700F-0nl18O_/view?usp=sharing" target="_blank" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </section>
